@@ -28,4 +28,54 @@
 
 ## 📁 Project Structure
 
+open-forms/ ├── frontend/ │ ├── index.html # Main form UI │ └── form.js # Handles form submission │ ├── backend/ │ ├── server.js # Express server for form handling │ ├── package.json # Backend dependencies │ └── .env # (Optional) MongoDB URI and other config │ └── README.md # Project documentation
+
+
+---
+
+## 🚀 Getting Started
+
+### ⚙️ Backend Setup (WIP)
+
+1. Navigate to the backend folder:
+   ```bash
+   cd backend
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Start the backend server:
+
+bash
+Copy
+Edit
+node server.js
+Note: Ensure MongoDB is running locally or update .env with a connection string to MongoDB Atlas.
+
+🌐 Frontend Setup
+Open frontend/index.html in a browser.
+
+Fill the form and submit.
+
+Data is sent to the backend and stored under the creator's entry.
+
+📌 To-Do List
+ Form UI
+
+ POST request to backend
+
+ Store response with creator ID
+
+ Form field validation
+
+ Backend authentication
+
+ Creator dashboard to view responses
+
+ Deployment on cloud (frontend + backend)
+
+🤝 Contributing
+Feel free to fork this repo and submit a pull request. Any help with backend or form customization is appreciated!
  
